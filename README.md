@@ -12,5 +12,6 @@ This repository documents my learning journey in C programming - from basics to 
 - Switch Case: `calculator_switch.c`, `weekday_switch.c`, `student_grade.c`
 
 ### 🚀 How to Run
-hello_world.c 
+```bash
+gcc hello_world.c -o hello
 ./hello
