@@ -11,9 +11,9 @@ int main()
 
     while(n > 0)
     {
-        rem = n % 10;                  // last digit
-        sum = sum + (rem * rem * rem); // cube jod diya
-        n = n / 10;                    // last digit hata diya
+        rem = n % 10;                  
+        sum = sum + (rem * rem * rem); 
+        n = n / 10;                    
     }
 
     if(temp == sum)
