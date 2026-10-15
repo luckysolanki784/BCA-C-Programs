@@ -7,13 +7,13 @@ int main()
     printf("Enter the no.: ");
     scanf("%d", &n);
 
-    temp = n;  // original no. ko save kar liya
+    temp = n;  
 
     while(n > 0)
     {
-        rem = n % 10;          // 1. last digit nikala
-        rev = rev * 10 + rem;  // 2. reverse me joda
-        n = n / 10;            // 3. last digit hataya
+        rem = n % 10;           
+        rev = rev * 10 + rem;  
+        n = n / 10;            
     }
 
     printf("Reverse no is: %d\n", rev);
