@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int n = 370, rem, sum = 0, temp;
+
+    temp = n;
+
+    while(n > 0)
+    {
+        rem = n % 10;
+        sum = sum + (rem * rem * rem);
+        n = n / 10;
+    }
+
+    if(temp == sum)
+    {
+        printf("%d is an Armstrong number", temp);
+    }
+    else
+    {
+        printf("%d is Not an Armstrong number", temp);
+    }
+
+    return 0;
+}
