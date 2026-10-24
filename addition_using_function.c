@@ -1,14 +1,15 @@
 // Functions in C
-
 #include <stdio.h>
 
 // Function Declaration
 int add(int, int);
 
 int main() {
-    int result;
+    int result, result1;
     result = add(20, 30);
-    printf("Result is : %d", result);
+    result1 = add(40, 50);
+    printf("Result is : %d\n", result);
+    printf("Result is : %d", result1);
     return 0;
 }
 
